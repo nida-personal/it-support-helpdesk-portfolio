@@ -1,0 +1,26 @@
+# Ticket ID: INC001
+Category: Login Issue
+Priority: High
+
+## Problem Description:
+User reported unable to log into Windows workstation.
+
+## Troubleshooting Steps:
+- Verified username and password correctness
+- Checked Caps Lock / Num Lock status
+- Attempted login on another workstation
+- Checked account status (locked/disabled simulation)
+
+## Root Cause:
+Account locked due to multiple failed login attempts.
+
+## Resolution:
+Unlocked user account and reset password.
+
+## Outcome:
+User successfully logged in after reset.
+
+## Tools/Concepts Used:
+- Active Directory (conceptual)
+- User account management
+- Basic authentication troubleshooting

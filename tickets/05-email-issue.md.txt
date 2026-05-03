@@ -1,0 +1,20 @@
+# Ticket ID: INC005
+Category: Email Issue
+
+## Problem Description
+User unable to send/receive emails.
+
+## Troubleshooting Steps
+- Checked internet connection
+- Verified email settings
+- Restarted email client
+- Checked mailbox storage
+
+## Root Cause
+Mailbox storage full.
+
+## Resolution
+Cleared mailbox space.
+
+## Outcome
+Email working normally.

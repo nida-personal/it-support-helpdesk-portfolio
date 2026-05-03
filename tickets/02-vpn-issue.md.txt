@@ -1,0 +1,25 @@
+# Ticket ID: INC002
+Category: VPN Issue
+Priority: Medium
+
+## Problem Description:
+User unable to connect to corporate VPN.
+
+## Troubleshooting Steps:
+- Checked internet connectivity
+- Verified VPN credentials
+- Restarted VPN client
+- Checked firewall settings (conceptual)
+
+## Root Cause:
+Incorrect VPN configuration profile.
+
+## Resolution:
+Reconfigured VPN profile and reconnected successfully.
+
+## Outcome:
+VPN connection restored.
+
+## Tools/Concepts Used:
+- VPN troubleshooting
+- Network connectivity checks

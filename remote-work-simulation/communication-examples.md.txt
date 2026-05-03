@@ -1,0 +1,36 @@
+# Remote Support Communication Examples
+
+## Example 1: Login Issue
+
+Hello,
+
+I understand you are facing a login issue. I will assist you in resolving this.
+
+Please confirm:
+- Username
+- Error message
+
+I will check your account status and update you shortly.
+
+---
+
+## Example 2: VPN Issue
+
+Hello,
+
+Please try the following steps:
+1. Restart VPN client
+2. Check internet connection
+3. Re-enter credentials
+
+Let me know if the issue persists.
+
+---
+
+## Example 3: Slow System
+
+Hello,
+
+Please restart your system and close unused applications.
+
+If the issue continues, I will perform further checks.

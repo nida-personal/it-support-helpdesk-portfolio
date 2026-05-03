@@ -1,0 +1,8 @@
+# Windows Login Troubleshooting Guide
+
+## Steps
+1. Verify username and password
+2. Check Caps Lock
+3. Restart system
+4. Check account lock status
+5. Reset password if needed

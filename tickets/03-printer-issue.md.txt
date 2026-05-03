@@ -1,0 +1,20 @@
+# Ticket ID: INC003
+Category: Printer Issue
+
+## Problem Description:
+Printer not printing documents from user workstation.
+
+## Troubleshooting Steps:
+- Checked printer connectivity
+- Verified printer status (online/offline)
+- Cleared print queue
+- Restarted print spooler service
+
+## Root Cause:
+Stuck print queue causing job blockage.
+
+## Resolution:
+Cleared queue and restarted print spooler.
+
+## Outcome:
+Printing restored successfully.

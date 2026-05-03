@@ -1,0 +1,12 @@
+# Simulated user unlock script
+
+Write-Output "Checking user account status..."
+Start-Sleep -Seconds 2
+
+Write-Output "Account locked detected."
+Start-Sleep -Seconds 2
+
+Write-Output "Unlocking account..."
+Start-Sleep -Seconds 2
+
+Write-Output "Account unlocked successfully."

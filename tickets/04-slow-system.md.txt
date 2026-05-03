@@ -1,0 +1,20 @@
+# Ticket ID: INC004
+Category: Performance Issue
+
+## Problem Description
+System running slow.
+
+## Troubleshooting Steps
+- Checked CPU and memory usage
+- Closed background applications
+- Cleared temporary files
+- Restarted system
+
+## Root Cause
+High resource usage.
+
+## Resolution
+Optimized system processes.
+
+## Outcome
+System performance improved.

@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Starting system cleanup..."
+sleep 1
+
+echo "Removing temporary files..."
+sleep 1
+
+echo "Clearing cache..."
+sleep 1
+
+echo "Cleanup completed successfully."

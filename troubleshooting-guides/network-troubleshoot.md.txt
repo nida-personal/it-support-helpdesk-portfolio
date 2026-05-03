@@ -1,0 +1,8 @@
+# Network Troubleshooting Guide
+
+## Steps:
+1. Check physical connection (WiFi/Ethernet)
+2. Run ipconfig /all
+3. Ping default gateway
+4. Restart router if needed
+5. Flush DNS cache
