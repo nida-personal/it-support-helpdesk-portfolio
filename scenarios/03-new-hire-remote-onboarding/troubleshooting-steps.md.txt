@@ -1,0 +1,84 @@
+# Troubleshooting Steps — New Hire Remote Onboarding
+
+Ticket ID: TASK-20260414
+Technician: Nida Firdous
+Date: 2026-04-22
+Method: Remote, Teams call with new employee on start date
+
+---
+
+## Step 1 — Confirm Laptop Received and Powered On
+
+- Contacted Priya via personal email on 2026-04-21 to confirm laptop arrived
+- Laptop received and confirmed powered on
+- Asked Priya to confirm Windows loaded to login screen successfully
+  Result: Confirmed OK
+
+---
+
+## Step 2 — First Login and Password Reset
+
+- Guided user to enter username: priya.k@company.com
+- Provided temporary password via SMS
+- Windows prompted for password reset on first login as expected
+- User created new password successfully
+- Confirmed password meets company complexity requirements
+
+---
+
+## Step 3 — MFA Enrollment
+
+- Asked user to download Microsoft Authenticator on personal phone
+- Guided user to aka.ms/mfasetup in browser
+- User entered Temporary Access Pass when prompted for MFA
+- Scanned QR code in Authenticator app
+- Tested push notification approval, result: successful
+- MFA enrollment confirmed complete
+
+---
+
+## Step 4 — VPN Connection
+
+- Asked user to open GlobalProtect on laptop, it was pre-installed
+- User entered portal address: vpn.company.com
+- Logged in with company credentials
+- VPN connected successfully on first attempt
+- Confirmed by asking user to open an internal SharePoint page
+  Result: Page loaded correctly, VPN confirmed working
+
+---
+
+## Step 5 — Microsoft Teams and Outlook Access
+
+- Asked user to open Microsoft Teams
+- Teams loaded and showed correct channels: Marketing Team, All-Company
+- Sent a test message in IT Support channel, user received it
+- Opened Outlook, inbox loaded, test welcome email from IT was visible
+- Confirmed user could send and receive email
+
+---
+
+## Step 6 — SharePoint and Shared Folder Access
+
+- Guided user to Marketing SharePoint site via Teams link
+- User confirmed they could view and open documents
+- Checked group share folder access in File Explorer via VPN
+  Result: Folders visible and accessible
+
+---
+
+## Step 7 — Final Checks
+
+- Confirmed all required applications were pre-installed on laptop:
+  Microsoft Teams, Outlook, OneDrive, GlobalProtect, Chrome, Edge
+- Confirmed BitLocker encryption was active, checked via Settings
+- Asked user if anything was missing or not working
+  Result: No issues reported
+- Introduced user to IT support contact details and how to raise a ticket
+
+---
+
+## Issues Encountered During Onboarding
+
+No issues encountered. All systems provisioned correctly before start date.
+Onboarding completed smoothly within the 15-minute welcome call window.

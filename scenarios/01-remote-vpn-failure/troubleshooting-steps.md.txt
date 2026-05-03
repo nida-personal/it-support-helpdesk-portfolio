@@ -1,0 +1,72 @@
+# Troubleshooting Steps — Remote VPN Failure
+
+Ticket ID: INC-20260401
+Technician: Nida Firdous
+Date: 2026-04-01
+Method: Remote, Phone and Remote Desktop via hotspot
+
+---
+
+## Step 1 — Gather Basic Information
+
+Asked user to confirm:
+- Which VPN client are they using? Answer: GlobalProtect
+- What is the exact error message? Answer: Error 800, VPN connection failed
+- Did any Windows updates run recently? Answer: Yes, auto-update ran Sunday night
+- Is their internet otherwise working? Answer: Yes, can browse normally
+- Are they on home Wi-Fi or wired? Answer: Wi-Fi
+
+---
+
+## Step 2 — Quick Baseline Checks
+
+Asked user to:
+1. Open browser and confirm internet is working. Result: Confirmed OK
+2. Try visiting the VPN portal URL directly in browser. Result: Loaded OK
+3. Restart the VPN client. Result: Error persisted
+4. Restart the computer. Result: Error persisted
+
+---
+
+## Step 3 — Check VPN Client Version
+
+- Asked user to open GlobalProtect, go to About, check version. Result: 5.1.4
+- Current approved version: 5.3.2
+- Finding: Windows update had also updated a network driver that caused
+  compatibility issue with older VPN client version
+
+---
+
+## Step 4 — Check Windows Firewall
+
+Asked user to:
+1. Open Windows Security, go to Firewall and network protection
+2. Confirm firewall is ON, which is correct and should stay on
+3. Checked if VPN client had firewall exception. Finding: Exception was missing,
+   likely cleared during Windows update
+
+---
+
+## Step 5 — Temporary Workaround While Fix Applied
+
+- Advised user to connect phone hotspot and retry VPN
+- VPN connected successfully via hotspot
+- Confirmed: Issue is with home router/ISP blocking updated port
+  after Windows networking stack change, not the VPN server itself
+
+---
+
+## Step 6 — Permanent Fix
+
+1. Pushed updated GlobalProtect client 5.3.2 via MDM remote deployment
+2. Guided user to re-add VPN firewall exception manually as interim step
+3. Asked user to reconnect to home Wi-Fi after client update
+4. VPN connected successfully on home Wi-Fi with updated client
+
+---
+
+## Root Cause
+
+Windows automatic update KB5034441 modified network adapter settings and
+cleared application firewall exceptions. Older VPN client version 5.1.4
+was incompatible with updated networking stack. Fix was client upgrade to 5.3.2.

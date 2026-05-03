@@ -1,0 +1,34 @@
+# Support Ticket — Slow Performance Home Office
+
+Ticket ID: INC-20260422
+Date Submitted: 2026-04-22
+Priority: Medium
+Status: Resolved
+Category: Performance / Hardware / Network
+
+---
+
+## User Details
+
+Name: Ahmed R.
+Department: Operations
+Location: Remote, Kitchener, ON
+Device: Lenovo ThinkPad T14, Windows 11, 8GB RAM
+
+---
+
+## User Description of Issue
+
+"My laptop has been really slow for the past week.
+Zoom calls keep freezing and dropping. My computer takes
+forever to open anything. It was fine before. My internet
+is fine because Netflix works perfectly."
+
+---
+
+## Initial Assessment
+
+- User is remote, no physical access possible
+- User confirms internet is working normally on other devices
+- Issue appears to be device-side based on initial description
+- Medium priority, user can still work but performance is significantly impacted

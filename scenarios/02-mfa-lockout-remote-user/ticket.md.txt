@@ -1,0 +1,35 @@
+# Support Ticket — MFA Lockout Remote User
+
+Ticket ID: INC-20260408
+Date Submitted: 2026-04-08
+Priority: High
+Status: Resolved
+Category: Access and Identity / MFA
+Submitted Via: Phone call to helpdesk
+
+---
+
+## User Details
+
+Name: James T.
+Department: Sales
+Location: Remote, Hamilton, ON
+Device: HP EliteBook 840, Windows 10
+
+---
+
+## User Description of Issue
+
+"I got a new phone last week and forgot to set up the authenticator app
+before my old phone was wiped. Now I cannot log into my Microsoft account,
+Teams, or anything. I have a client presentation in 2 hours."
+
+---
+
+## Initial Assessment
+
+- User changed phone and lost MFA authenticator without prior backup
+- Cannot access M365, Teams, SharePoint, full loss of remote access
+- Cannot verify identity via usual MFA method as that is the problem
+- Need to use alternate identity verification before any reset
+- High business impact, client-facing deadline

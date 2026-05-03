@@ -1,0 +1,59 @@
+# Troubleshooting Steps — Slow Performance
+
+Ticket ID: INC-20260422
+Technician: Nida Firdous
+Date: 2026-04-22
+Method: Remote session via Teams screen share and verbal guidance
+
+---
+
+## Step 1 — Rule Out Network vs Device
+
+- User says Netflix works fine so internet is functional
+- Asked user to run speed test at speedtest.net during Zoom call
+  Result: 85 Mbps down / 22 Mbps up, sufficient for Zoom
+- Conclusion: Issue is device-side, not internet
+
+---
+
+## Step 2 — Check CPU and RAM Usage
+
+Asked user to right-click taskbar, open Task Manager, go to Performance tab:
+- CPU sitting at 92 to 97 percent consistently
+- Memory: 7.6GB used out of 8GB, nearly full
+
+Switched to Processes tab, top resource consumers identified:
+- Antivirus CrowdStrike Falcon: 38% CPU, running a full scheduled scan
+- Microsoft Teams: 1.8GB RAM
+- OneDrive: syncing 4,200 files from a large folder recently shared with user
+- Chrome: 14 tabs open, 2.1GB RAM
+
+---
+
+## Step 3 — Immediate Relief Actions
+
+1. Paused OneDrive sync temporarily, right-click OneDrive, Pause 24 hours
+2. Antivirus scan could not be cancelled as it is policy-controlled
+3. Closed unnecessary Chrome tabs, advised user to use Edge for Teams calls
+4. Restarted Teams app
+
+Result: CPU dropped to 45%, RAM freed to 5.1GB, Zoom call quality improved immediately.
+
+---
+
+## Step 4 — Permanent Fixes
+
+1. Submitted request to sysadmin team to reschedule antivirus scan to
+   off-hours at 11pm instead of 10am
+2. Advised user to let OneDrive sync during off-hours for large file transfers
+3. Recommended closing unused browser tabs during video calls
+4. Flagged device for RAM upgrade review, 8GB is below recommended 16GB
+   for current software stack
+
+---
+
+## Root Cause
+
+Combination of scheduled antivirus full scan during work hours, large
+OneDrive sync, Teams, and Chrome running simultaneously exceeded 8GB RAM
+capacity and caused CPU saturation. No hardware fault found.

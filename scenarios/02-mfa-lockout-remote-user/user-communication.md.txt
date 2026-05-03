@@ -1,0 +1,49 @@
+# User Communication Log — INC-20260408
+
+---
+
+## Opening Statement — Phone Call
+
+"Hi James, this is Nida from IT Support. I understand you are locked
+out of MFA and have a client presentation coming up. Let us get
+you sorted as quickly as possible. Before I make any changes to
+your account, I need to verify your identity through a few quick
+questions. This is standard procedure to keep your account secure.
+Is that okay?"
+
+---
+
+## Update After Verification
+
+Hi James,
+
+Identity confirmed. I am working on your account now.
+
+I am generating a temporary login pass that will give you access
+to M365, Teams, and everything else for the next 4 hours.
+I will send it to your mobile number on file via SMS right now.
+
+Once you receive it, use it in place of your usual MFA code.
+I will stay on the line to walk you through it.
+
+Nida | IT Support
+
+---
+
+## Resolution Email
+
+Subject: MFA Access Restored, INC-20260408
+
+Hi James,
+
+You are all set. Your Microsoft Authenticator is now configured
+on your new phone and your temporary pass has been removed.
+
+For future reference: if you ever replace your phone, please
+contact IT first so we can help back up your MFA setup before
+wiping the old device. It takes 5 minutes and saves a lot of stress.
+
+Good luck with the presentation today!
+
+Nida | IT Support
+Ticket INC-20260408 | Resolved | 31 min resolution time

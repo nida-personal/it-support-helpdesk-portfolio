@@ -1,0 +1,38 @@
+# Support Ticket — New Hire Remote Onboarding
+
+Ticket ID: TASK-20260414
+Date: 2026-04-14
+Priority: Medium
+Status: Completed
+Category: Onboarding / User Provisioning
+Requested By: HR, People Operations
+
+---
+
+## User Details
+
+Name: Priya K.
+Department: Marketing
+Manager: David L.
+Start Date: 2026-04-22
+Work Model: Fully Remote, Toronto, ON
+
+---
+
+## Request Details
+
+"Please set up IT access for a new remote employee starting Monday.
+Name: Priya K. | Department: Marketing | Manager: David L.
+She will be working fully remote from Toronto, ON.
+Laptop will be shipped directly to her home address.
+Please ensure she has everything she needs to log in on day one."
+
+---
+
+## Scope of Work
+
+- Create Active Directory account
+- Assign M365 license and configure Outlook
+- Add to Teams and relevant SharePoint and group folders
+- Configure VPN access
+- Set up MFA b

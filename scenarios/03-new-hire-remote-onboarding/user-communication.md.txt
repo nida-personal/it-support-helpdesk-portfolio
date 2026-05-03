@@ -1,0 +1,103 @@
+# User Communication — TASK-20260414
+
+---
+
+## Welcome Email — Sent Friday 2026-04-18 Before Monday Start Date
+
+Subject: Welcome to the Team Priya, Your IT Setup Instructions
+
+Hi Priya,
+
+Welcome! I am Nida from IT Support and I have set up everything
+you will need to get started on Monday. Here is what to expect
+and what to do when your laptop arrives.
+
+Your Laptop
+Your Dell laptop is on its way and should arrive by Friday.
+Tracking number: [tracking number]
+
+Step 1 — First Login
+Username: priya.k@company.com
+Temporary password: [sent separately via SMS for security]
+You will be asked to create a new password immediately on first login.
+
+Step 2 — Set Up MFA, Takes About 3 Minutes
+1. Download Microsoft Authenticator on your phone
+2. Go to aka.ms/mfasetup
+3. Follow the on-screen steps to link your account
+Your temporary access pass will allow you to do this before MFA is fully set up.
+
+Step 3 — Connect to VPN
+GlobalProtect VPN is already installed on your laptop.
+Open it and enter the portal address: vpn.company.com
+Use your company username and password to connect.
+
+Step 4 — Access Teams and Email
+Once VPN is connected, open Microsoft Teams. Your account
+is already set up. Your Outlook email is also ready to use.
+
+Day One — I Will Call You at 9:00am Monday
+I will do a quick 15-minute welcome call to make sure everything
+is working and answer any questions.
+
+If anything is not working when your laptop arrives, reach out
+before Monday so we can fix it in time.
+
+Looking forward to supporting you!
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
+
+---
+
+## Day Before Start Date Check-In Email — Sent 2026-04-21
+
+Subject: Quick Check In Before Your First Day Tomorrow, Priya
+
+Hi Priya,
+
+Just checking in to confirm your laptop has arrived and everything
+is ready for tomorrow morning.
+
+If your laptop has arrived, please make sure it is fully charged
+tonight so you are ready to go at 9am.
+
+If anything has not arrived or something is not working, please
+reply to this email tonight or first thing tomorrow morning and
+I will sort it out before your start time.
+
+Looking forward to speaking with you at 9am tomorrow!
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
+
+---
+
+## Follow-Up Email After Successful Onboarding — Sent 2026-04-22
+
+Subject: Welcome Aboard Priya, Your IT Support Details
+
+Hi Priya,
+
+Great speaking with you this morning. You are all set and ready to go.
+
+Here are your IT support details for future reference:
+
+How to raise a support ticket:
+- Email: nida.firdous@outlook.com
+- Log a ticket via the IT self-service portal at: [portal link]
+- For urgent issues, call the IT support line at: [phone number]
+
+Tips for working remotely:
+- Always connect to VPN before accessing company files or SharePoint
+- If you ever change your phone, contact IT before wiping your old device
+  so we can back up your MFA setup first
+- If your VPN stops working, try switching to your phone hotspot first
+  and then contact IT
+
+I have notified your manager David L. that you are up and running.
+
+Welcome to the team and do not hesitate to reach out if you need anything!
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com

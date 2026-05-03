@@ -1,0 +1,50 @@
+# Resolution Notes — INC-20260422
+
+Resolved By: Nida Firdous
+Resolution Time: 28 minutes
+Resolution Date: 2026-04-22
+
+---
+
+## Resolution Summary
+
+Device performance degraded due to simultaneous high-resource processes:
+scheduled antivirus scan at 10am, large OneDrive sync, Teams, and Chrome
+with 14 tabs open. Pausing OneDrive and closing browser tabs provided
+immediate relief. Long-term fix: antivirus scan rescheduled to off-hours,
+device flagged for RAM upgrade from 8GB to 16GB.
+
+---
+
+## Actions Taken
+
+- Paused OneDrive sync to free RAM immediately
+- Submitted AV scan reschedule request to sysadmin team
+- Closed redundant Chrome processes
+- Device added to RAM upgrade review list, ticket HW-20260423
+
+---
+
+## No Hardware Fault Found
+
+Device is functioning correctly. Performance issue was caused entirely
+by multiple resource-heavy processes running simultaneously during
+work hours. Issue resolved without any hardware replacement or repair.
+
+---
+
+## Knowledge Base Note Added
+
+Title: Slow Performance During Video Calls, Remote Workers
+Common Cause: Antivirus scan and OneDrive sync running simultaneously with video call
+Quick Fix: Pause OneDrive, close unused browser tabs, switch to Edge for Teams calls
+Long-Term Fix: Schedule AV scans outside core hours, recommended window 10pm to 2am
+
+---
+
+## Follow-Up Actions
+
+- Submitted AV scan reschedule request, reference SYSADM-20260422
+- Raised RAM upgrade review ticket, reference HW-20260423
+- Sent follow-up email to Ahmed next day to confirm issue resolved
+- Ticket closed, resolved

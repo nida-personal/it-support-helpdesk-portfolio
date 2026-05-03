@@ -1,0 +1,63 @@
+# Troubleshooting Steps — MFA Lockout
+
+Ticket ID: INC-20260408
+Technician: Nida Firdous
+Date: 2026-04-08
+Method: Phone call and email follow-up
+
+---
+
+## Step 1 — Identity Verification
+
+Because MFA is the security layer, identity must be verified through
+alternate means before any reset is performed.
+
+Verification steps followed:
+- Confirmed full legal name on file
+- Confirmed employee ID number
+- Confirmed manager's name
+- Confirmed last 4 digits of work phone number on record
+- Sent verification code to personal email on file as secondary contact
+- All checks passed, identity confirmed
+
+Note: Never reset MFA without completing full identity verification.
+Social engineering attacks often target MFA reset workflows.
+
+---
+
+## Step 2 — Check for Backup MFA Methods in Azure AD
+
+Checked user's Azure AD profile:
+- Backup email: registered but user no longer had access to that account
+- Backup phone number: registered, confirmed with user, used for SMS verification
+- Temporary Access Pass: not previously configured
+
+---
+
+## Step 3 — Generate Temporary Access Pass
+
+1. Opened Azure Active Directory admin portal
+2. Navigated to Users, selected James T., opened Authentication Methods
+3. Generated a Temporary Access Pass
+   - Duration: 4 hours
+   - One-time use: No, allows multiple logins during the window
+4. Shared TAP securely via SMS to verified phone number
+
+---
+
+## Step 4 — User Logs In with Temporary Access Pass
+
+- User used TAP in place of MFA to log into M365
+- Confirmed access to Teams, Outlook, SharePoint, all restored
+- Guided user to immediately set up Microsoft Authenticator on new phone
+
+---
+
+## Step 5 — Re-enroll MFA on New Phone
+
+Guided user through:
+1. Open Microsoft Authenticator on new phone
+2. Go to aka.ms/mfasetup
+3. Add work account and scan QR code
+4. Test approval prompt, result was successful
+5. Removed TAP after successful MFA setup confirmed

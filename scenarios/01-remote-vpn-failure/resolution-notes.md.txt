@@ -1,0 +1,48 @@
+# Resolution Notes — INC-20260401
+
+Resolved By: Nida Firdous
+Resolution Time: 22 minutes
+Resolution Date: 2026-04-01
+
+---
+
+## Resolution Summary
+
+User could not connect to VPN due to Windows update KB5034441 modifying
+network adapter settings and removing VPN firewall exceptions. Older
+GlobalProtect client 5.1.4 became incompatible. Resolved by remotely
+deploying updated client 5.3.2 via MDM and re-adding firewall exception.
+
+---
+
+## Steps That Resolved the Issue
+
+1. Identified Windows update as trigger via version check
+2. Provided hotspot workaround to restore user productivity immediately
+3. Deployed GlobalProtect 5.3.2 via MDM remotely
+4. Confirmed resolution on both home Wi-Fi and hotspot
+
+---
+
+## Knowledge Base Article Created
+
+Title: VPN Error 800 After Windows Update, GlobalProtect Fix
+Applies To: Windows 11, GlobalProtect 5.1.x
+Solution: Update to GlobalProtect 5.3.2 via MDM or manual installer.
+Re-add VPN firewall exception if cleared by Windows update.
+
+---
+
+## Follow-Up Actions
+
+- Flagged KB5034441 to team lead as known issue causing VPN breakage
+- Recommended pushing GP client update proactively to all remote users
+  before next patch Tuesday
+- User confirmed attendance at 9am meeting was not impacted
+
+---
+
+## User Feedback
+
+User responded: "Thank you so much, you saved my morning! Really appreciate the quick fix."
+Ticket closed, resolved.

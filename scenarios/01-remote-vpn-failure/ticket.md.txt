@@ -1,0 +1,35 @@
+# Support Ticket — Remote VPN Failure
+
+Ticket ID: INC-20260401
+Date Submitted: 2026-04-01
+Priority: High
+Status: Resolved
+Category: Remote Access / VPN
+Submitted Via: Email / Self-Service Portal
+
+---
+
+## User Details
+
+Name: Sarah M.
+Department: Finance
+Location: Working from home, Mississauga, ON
+Device: Dell Latitude 5520, Windows 11
+
+---
+
+## User Description of Issue
+
+"Hi IT, I am trying to connect to the VPN this morning but it keeps failing.
+I get an error that says VPN connection failed, Error 800.
+I was working fine on Friday. Nothing has changed on my end.
+I have a 9am budget call I cannot miss. Please help urgently."
+
+---
+
+## Initial Assessment
+
+- User is remote, no physical access possible
+- Error 800 typically indicates VPN server unreachable or firewall blocking
+- User reports no changes made to device
+- High business impact, time-sensitive meeting

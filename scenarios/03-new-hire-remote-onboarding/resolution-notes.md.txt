@@ -1,0 +1,54 @@
+# Resolution Notes — TASK-20260414
+
+Resolved By: Nida Firdous
+Completion Time: 15 minutes on start date call
+Resolution Date: 2026-04-22
+
+---
+
+## Resolution Summary
+
+New remote employee Priya K. was fully onboarded on her start date with
+no issues. All accounts were provisioned before start date including
+Active Directory, M365, Teams, SharePoint, VPN and MFA. Start date welcome
+call confirmed all access was working correctly within 15 minutes.
+
+---
+
+## Accounts and Access Confirmed Working
+
+- Active Directory account: active and accessible
+- M365 license: assigned, Outlook mailbox live
+- Microsoft Teams: joined correct channels, messaging working
+- SharePoint: Marketing site accessible
+- VPN: GlobalProtect connected successfully on first attempt
+- MFA: Microsoft Authenticator enrolled and tested
+- Shared group folders: visible and accessible via VPN
+
+---
+
+## No Issues Found
+
+All provisioning steps completed before start date.
+No troubleshooting was required during the welcome call.
+User was able to start work independently by 9:30am as planned.
+
+---
+
+## Follow-Up Actions
+
+- Sent follow-up email to Priya with IT support contact details
+  and instructions for raising future tickets
+- Notified manager David L. that onboarding was completed successfully
+- Ticket closed, completed
+
+---
+
+## Knowledge Base Note Added
+
+Title: Remote New Hire Onboarding Checklist and Process
+Applies To: All fully remote new starters
+Notes: Complete all provisioning at least 3 business days before start date.
+Ship laptop at least 5 business days before start date to allow time
+for delivery issues. Send welcome email with step by step setup instructions
+Thursday before Monday start so user has time to read it before day one.

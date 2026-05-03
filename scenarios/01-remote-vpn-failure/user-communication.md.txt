@@ -1,0 +1,59 @@
+# User Communication Log — INC-20260401
+
+---
+
+## Initial Response Email — Sent Within 5 Minutes of Ticket Receipt
+
+Subject: RE: VPN Connection Issue, INC-20260401
+
+Hi Sarah,
+
+Thank you for reaching out. I can see this is urgent with your 9am meeting
+and I am picking this up right now as a priority.
+
+While I work on the fix, can you please try this immediately:
+Switch your laptop to your phone's mobile hotspot and try connecting
+to VPN again. This will tell us quickly whether the issue is with
+your home network or the VPN client itself.
+
+I will stay on this ticket until you are connected. Reply here or
+call me directly at the support line.
+
+Nida | IT Support
+
+---
+
+## Update During Troubleshooting — Sent 10 Minutes After First Email
+
+Hi Sarah,
+
+Good news. I have identified the cause. A Windows update that ran
+over the weekend changed some network settings and affected your
+VPN client. I am pushing an updated VPN client to your laptop
+remotely right now and this should take about 5 minutes.
+
+Please keep your laptop on and connected to the hotspot while
+the update installs. I will message you as soon as it is done.
+
+Nida | IT Support
+
+---
+
+## Resolution Confirmation Email
+
+Subject: VPN Issue Resolved, INC-20260401
+
+Hi Sarah,
+
+Your VPN client has been updated and you should now be able to
+connect normally from your home Wi-Fi. Please try reconnecting
+and let me know if it works.
+
+What happened: A Windows update changed your network settings
+and the older VPN client stopped working with it. The new version
+is fully compatible and this should not happen again.
+
+You are all set for your 9am call. Good luck with the budget meeting!
+
+Nida | IT Support
+Ticket INC-20260401 | Resolved | 22 min resolution time

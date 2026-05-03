@@ -1,0 +1,50 @@
+# Remote New Hire Onboarding Checklist — TASK-20260414
+
+New Employee: Priya K.
+Department: Marketing
+Manager: David L.
+Start Date: 2026-04-22
+Work Model: Fully Remote, Toronto, ON
+Technician: Nida Firdous
+Checklist Completed: 2026-04-18
+
+---
+
+## Pre-Start Tasks — Complete by Friday 2026-04-18
+
+Active Directory
+- [x] Created AD user account: priya.k@company.com
+- [x] Set temporary password with forced reset on first login
+- [x] Added to AD groups: Marketing-General, All-Staff, Remote-Users
+- [x] Set manager attribute: David L.
+- [x] Configured account expiry: None, permanent employee
+
+M365 Licensing
+- [x] Assigned Microsoft 365 Business Premium license
+- [x] Outlook mailbox provisioned and confirmed deliverable
+- [x] Added to Marketing team distribution list
+- [x] Shared Marketing SharePoint site access granted
+- [x] Teams account active, added to Marketing Team and All-Company channels
+
+VPN Access
+- [x] Created VPN profile in GlobalProtect
+- [x] Tested VPN credentials in test environment
+- [x] VPN quick-start guide included in welcome email
+
+MFA Setup
+- [x] Temporary Access Pass generated for first login
+- [x] Instructions for setting up Microsoft Authenticator included
+- [x] Backup phone number registered from HR form
+
+Equipment
+- [x] Laptop Dell Latitude 5520 Windows 11 shipped to home address
+- [x] Tracking number sent to employee and manager
+- [x] BitLocker enabled, recovery key stored in AD
+
+---
+
+## Day One Support Plan
+
+- Available on Teams and phone 8:30am to 5:00pm on start date
+- Scheduled 15-minute virtual welcome call with Priya at 9:00am
+- Manager David L. notified to expect employee online by 9:30am

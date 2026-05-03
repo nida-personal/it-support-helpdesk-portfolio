@@ -1,0 +1,38 @@
+# Resolution Notes — INC-20260408
+
+Resolved By: Nida Firdous
+Resolution Time: 31 minutes
+Resolution Date: 2026-04-08
+
+---
+
+## Resolution Summary
+
+User lost MFA access after phone replacement without prior authenticator
+backup. Identity verified via alternate methods. Temporary Access Pass
+issued via Azure AD with 4-hour window. User restored to full M365 access
+and re-enrolled Microsoft Authenticator on new device within the same session.
+
+---
+
+## Root Cause
+
+User was not informed during phone upgrade process that MFA authenticator
+app data does not transfer automatically during device migration.
+
+---
+
+## Preventive Recommendation Submitted to Team Lead
+
+Recommend adding MFA backup reminder to all IT communications when users
+submit phone upgrade or device replacement requests. Suggested adding a
+before-you-wipe-your-old-phone checklist to the company knowledge base.
+
+---
+
+## Knowledge Base Article Created
+
+Title: MFA Lockout After Phone Change, Recovery Using Temporary Access Pass
+Applies To: M365, Azure AD, Microsoft Authenticator
+Steps: Verify identity, Generate TAP in Azure AD, User logs in,
+Re-enroll Authenticator, Remove TAP

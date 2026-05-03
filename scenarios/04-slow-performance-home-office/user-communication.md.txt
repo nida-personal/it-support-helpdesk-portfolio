@@ -1,0 +1,120 @@
+# User Communication Log — INC-20260422
+
+---
+
+## Initial Response Email — Sent Within 5 Minutes of Ticket Receipt
+
+Subject: RE: Laptop Running Slow, INC-20260422
+
+Hi Ahmed,
+
+Thank you for reaching out. I have picked up your ticket and will
+look into this right away.
+
+Before our remote session, can you please do one thing for me:
+Go to speedtest.net and run a quick internet speed test and let
+me know the results. This will help me narrow down whether the
+issue is with your internet connection or your laptop itself.
+
+I will send you a Teams meeting link shortly so we can connect
+and I can take a look together with you.
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
+
+---
+
+## Teams Session Invite — Sent 10 Minutes After First Email
+
+Subject: Teams Screen Share Session, INC-20260422
+
+Hi Ahmed,
+
+Thank you for sending the speed test results. Your internet looks
+fine so the issue is on the laptop side. I have sent you a Teams
+meeting request for right now so we can look at this together.
+
+Please accept and join when you are ready. I will be able to
+see your screen and walk you through everything step by step.
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
+
+---
+
+## Update During Session — Verbal Communication Notes
+
+Explained to Ahmed during the Teams screen share session:
+
+"I can see what is happening here. Your antivirus is running a
+full scan right now which is using a lot of your CPU, and at the
+same time OneDrive is syncing a large amount of files. Combined
+with Teams and all your Chrome tabs open, your laptop has run out
+of memory to keep up. This is not a hardware fault, it is just
+too many heavy tasks running at the same time.
+
+What I am going to do right now is pause the OneDrive sync and
+close some of those Chrome tabs. That should give you immediate
+relief. I will also put in a request to have your antivirus scans
+moved to late at night so this does not happen during your work day."
+
+---
+
+## Resolution Confirmation Email — Sent After Session
+
+Subject: Laptop Performance Issue Resolved, INC-20260422
+
+Hi Ahmed,
+
+Your laptop should be running much better now. Here is a summary
+of what we found and what was done.
+
+What was happening:
+Your antivirus was running a full scheduled scan at 10am at the
+same time as OneDrive was syncing over 4,000 files. Combined with
+Teams and multiple Chrome tabs open, your laptop ran out of memory
+and slowed down significantly.
+
+What was fixed today:
+- Paused OneDrive sync to free up memory immediately
+- Closed unused Chrome tabs during the session
+- Submitted a request to reschedule your antivirus scan to 11pm
+  so it runs overnight and does not affect your work day
+
+Tips to avoid this in the future:
+- Use Microsoft Edge instead of Chrome when you are on Zoom or
+  Teams calls as it uses less memory
+- If OneDrive starts syncing a large number of files, you can
+  pause it by right-clicking the OneDrive icon in the taskbar
+  and selecting Pause for 24 hours
+- Close browser tabs you are not actively using during video calls
+
+One more thing:
+I have also raised a separate request to have your laptop reviewed
+for a RAM upgrade. Your current 8GB is running at its limit with
+the software your team uses. Reference ticket: HW-20260423.
+
+Please let me know if the laptop feels back to normal or if
+anything else comes up.
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
+Ticket INC-20260422 | Resolved | 28 min resolution time
+
+---
+
+## Follow-Up Email — Sent Next Day 2026-04-23
+
+Subject: Quick Follow Up, INC-20260422
+
+Hi Ahmed,
+
+Just checking in to make sure your laptop has been running well
+since yesterday. The antivirus reschedule should now be in effect
+so you should not see that slowdown during work hours again.
+
+If anything feels off or the issue comes back, please do not
+hesitate to reach out.
+
+Nida Firdous | IT Support
+nida.firdous@outlook.com
